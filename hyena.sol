@@ -1,23 +1,19 @@
 /**
- *Submitted for verification at BscScan.com on 2021-03-01
+ *Submitted for verification at BscScan.com on 2021-04-20
 */
 
 /**
- *Submitted for verification at BscScan.com on 2021-03-01
-*/
+ * 
+ * 
+   A charity-oriented token that is helping to preserve endangered hyenas around the world. 
 
-/**
-  
-   #BEE
-   
-   #LIQ+#RFI+#SHIB+#DOGE = #BEE
+   Hyena features:
+   5% fee auto added to the liquidity pool and locked forever
+   5% fee auto distributed to all holders
+   30% Supply is burned at start.
+      
+    
 
-   #SAFEMOON features:
-   3% fee auto add to the liquidity pool to locked forever when selling
-   2% fee auto distribute to all holders
-   I created a black hole so #Bee token will deflate itself in supply with every transaction
-   50% Supply is burned at start.
-   
 
  */
 
@@ -701,7 +697,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 }
 
 
-contract SafeMoon is Context, IERC20, Ownable {
+contract HappyCoin is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -719,8 +715,8 @@ contract SafeMoon is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "SafeMoon";
-    string private _symbol = "SAFEMOON";
+    string private _name = "HappyCoin";
+    string private _symbol = "HAPPY";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 5;
