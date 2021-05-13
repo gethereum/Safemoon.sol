@@ -697,7 +697,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 }
 
 
-contract HappyCoin is Context, IERC20, Ownable {
+contract Hyena is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -715,8 +715,8 @@ contract HappyCoin is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "HappyCoin";
-    string private _symbol = "HAPPY";
+    string private _name = "HyenaToken";
+    string private _symbol = "HYENA";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 5;
